@@ -8,4 +8,6 @@ You won't have enough permissions to authorize the Static Web App to create the 
 
 It is possible to set secrets in a repository that you have write access to using the [Github CLI](https://cli.github.com/) Commands should be executing from the folder that your repository (`.git` folder) is in. We are mainly interested in `gh secret set <secret_name>` Using this you should be able to set the deployment token (that you can get from the Static Web App overview in Azure)
 
+You can find more information about the Static Web App build step that is used [Here](https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions#build-and-deploy)
+
 If you need any help please don't hesitate to contact me at [nielsw@delta-n.nl](mailto:nielsw@delta-n.nl)

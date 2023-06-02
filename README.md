@@ -10,4 +10,6 @@ It is possible to set secrets in a repository that you have write access to usin
 
 You can find more information about the Static Web App build step that is used [Here](https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions#build-and-deploy)
 
+Although this sample is focused on Next.js, it also demonstrates the proper way to inject secret variables into your workflows - which is useful for pretty much every application.
+
 If you need any help please don't hesitate to contact me at [nielsw@delta-n.nl](mailto:nielsw@delta-n.nl)
